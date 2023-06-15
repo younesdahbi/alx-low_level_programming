@@ -1,0 +1,10 @@
+#!/bin/bash
+
+CFILE="0-preprocessor"
+OUTPUT_FILE="c"
+
+# Run the C file through the preprocessor and save the result
+gcc -E $CFILE -o $OUTPUT_FILE
+
+echo "Preprocessing completed. Result saved in $OUTPUT_FILE."
+
