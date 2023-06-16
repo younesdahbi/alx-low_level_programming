@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -E -o output_file input_file.c && echo "Preprocessing completed. Result saved in output_file."
+gcc $CFILE -E -o c
