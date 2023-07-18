@@ -6,7 +6,7 @@
  * Return: void
 */
 
-dog_t *new_dog(char *name, float age, char *owner)
+int _strlen(const char *str)
 {
 	int length = 0;
 
