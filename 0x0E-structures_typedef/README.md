@@ -1,2 +1,1 @@
-
-yd
+C - Structures, typedef
